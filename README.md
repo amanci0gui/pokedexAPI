@@ -16,5 +16,5 @@ A aplicação utiliza a [PokeAPI](https://pokeapi.co/), que fornece dados sobre 
 
 1. **Clone o repositório**:
    ```bash
-   git clone <URL do repositório>
-   cd <diretório do projeto>
+   git clone https://github.com/amanci0gui/pokedexAPI
+   cd pokedexAPI
