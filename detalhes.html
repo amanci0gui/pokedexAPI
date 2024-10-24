@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./pokemon-detalhe.js" defer></script>
+</head>
+<body>
+    <main class="detalhe-main main">
+         <header class="header">
+            <div class="header-wrapper">
+                <div class="header-wrap">
+                    <a href="./index.html" class="btn-volta-wrap">
+                        <img src="./assets/back-to-home.svg" alt="de volta pro principal" class="btn-volta" id="btn-volta">                         
+                    </a>
+                    <div class="nome-wrap">
+                        <h1 class="nome"></h1>
+                    </div>
+                </div>
+                <div class="id-pokemon-wrap">
+                    <p class="body2-fonts"></p>
+                </div>
+            </div>
+         </header>
+         <div class="imagem-destaque">
+            <a href="#" class="seta seta-esquerda" id="setaEsquerda">
+                <img src="./assets/chevron_left.svg" alt="volta">
+            </a>
+            <div class="img-detalhe-wrapper">
+                <img src="" alt="">
+            </div>
+            <a href="#" class="seta seta-direita" id="setaDireita">
+                <img src="./assets/chevron_right.svg" alt="avanca">
+            </a>
+         </div>
+         <div class="detalhe-carta-detalhe-wrapper">
+            <div class="power-wrapper">
+                <p class="body3-fonts type grass"></p>
+                <p class="body3-fonts type poison"></p>
+            </div>
+            <p class="body2-fonts sobre-text">Sobre</p>
+            <div class="detalhe-pokemon-wrapper">
+                <div class="detalhe-pokemon-wrap">
+                    <div class="detalhe-pokemon">
+                        <img src="./assets/weight.svg" alt="peso">
+                        <p class="body3-fonts peso"></p>
+                    </div>
+                    <p class="legenda-fonte">Peso</p>
+                </div>
+                <div class="detalhe-pokemon-wrap">
+                    <div class="detalhe-pokemon">
+                        <img src="./assets/height.svg" alt="altura" class="straighten">
+                        <p class="body3-fonts altura"></p>
+                    </div>
+                    <p class="legenda-fonte">Altura</p>
+                </div>
+                <div class="detalhe-pokemon-wrap">
+                    <div class="detalhe-pokemon-move"></div>
+                    <p class="legenda-fonte">Poder</p>
+                </div>
+            </div>
+            <p class="body3-fonts pokemon-descricao"></p>
+            <p class="body2-fonts texto-sobre"> Stats Base</p>
+            <div class="stats-wrapper">
+                <div class="stats-wrap" data-stat="HP">
+                    <p class="body3-fonts stats">HP</p>
+                    <p class="body3-fonts"></p>
+                    <progress value="" max="100" class="progress-bar"></progress>
+                </div>
+                <div class="stats-wrap" data-stat="ATK">
+                    <p class="body3-fonts stats">ATK</p>
+                    <p class="body3-fonts"></p>
+                    <progress value="" max="100" class="progress-bar"></progress>
+                </div>
+                <div class="stats-wrap" data-stat="DEF">
+                    <p class="body3-fonts stats">DEF</p>
+                    <p class="body3-fonts"></p>
+                    <progress value="" max="100" class="progress-bar"></progress>
+                </div>
+                <div class="stats-wrap" data-stat="SATK">
+                    <p class="body3-fonts stats">SATK</p>
+                    <p class="body3-fonts"></p>
+                    <progress value="" max="100" class="progress-bar"></progress>
+                </div>
+            </div>
+         </div>
+         <img src="./assets/pokedex.svg" alt="pokedex" class="detalhe-fundo">
+    </main>
+</body>
+</html>
