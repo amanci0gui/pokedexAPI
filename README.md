@@ -14,7 +14,7 @@ A aplicação utiliza a [PokeAPI](https://pokeapi.co/), que fornece dados sobre 
 
 ## Como configurar e executar a aplicação
 
-1. **Clone o repositório**:
+1. **Clone o repositório e coloque todos os arquivos .svg dentro de uma pasta chamada assets**:
    ```bash
    git clone https://github.com/amanci0gui/pokedexAPI
    cd pokedexAPI
